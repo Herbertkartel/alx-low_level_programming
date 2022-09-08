@@ -1,1 +1,2 @@
-Assembler
+#!/bin/bash
+gcc -s $CFILE
