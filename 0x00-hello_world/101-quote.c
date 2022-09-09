@@ -1,5 +1,4 @@
 #include <stdio.h>
- #include <unistd.h>
 
 /**
  * main - Prints exactly "and that peice of art is useful" - Dora Korpar, 2015-10-19",
