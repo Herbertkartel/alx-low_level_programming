@@ -1,1 +1,1 @@
-Positives or negatives
+Positives and negatives
