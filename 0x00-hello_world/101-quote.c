@@ -1,7 +1,9 @@
 #include <stdio.h>
+ #include <unistd.h>
 
 /**
- * main - Entry point
+ * main - Prints exactly "and that peice of art is useful" - Dora Korpar, 2015-10-19",
+ * Followed by a new line, to the standard error.
  *
  * Return: Always 0 (success)
  */
