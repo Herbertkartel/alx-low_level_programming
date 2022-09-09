@@ -1,1 +1,1 @@
-A Program that peints the alphabet
+The last digit
