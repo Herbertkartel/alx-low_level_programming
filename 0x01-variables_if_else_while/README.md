@@ -1,1 +1,1 @@
-Print alphabet lowercase in reverse
+Print lowercase alphabet in reverse
