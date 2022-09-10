@@ -1,1 +1,1 @@
-Program that prints all single digit numbers
+Print numbers that prints all single digits
