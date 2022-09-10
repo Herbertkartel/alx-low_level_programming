@@ -1,1 +1,1 @@
-Prints the numbers from 00 to 99 numbers separated
+Prints the numbers from 00 to 99
