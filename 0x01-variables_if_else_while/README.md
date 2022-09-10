@@ -1,1 +1,1 @@
-Print lowercase alphabet
+Program that prints all single digit numbers
