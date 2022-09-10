@@ -2,18 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main -Prints the alphabet in lowercase
  *
- * Return: Always 0 (Success)
+ * Return: 0 Always
  */
 int main(void)
 {
-char low;
-
-for (low = 'a'; low <= 'z'; low++)
-putchar(low);
-for (low = 'A'; low <= 'Z'; low++)
-putchar(low);
-
+char letter;
+for (letter = 'a';  letter <= 'z'; letter++)
+putchar(letter);
+putchar('\n');
 return (0);
 }
