@@ -6,30 +6,23 @@
  */
 int main(void)
 {
-int i = 0;
-int j = 0;
-while (i <= 9)
+int i = ;
+int j = ;
+for (i = 48; i < 57; i++)
 {
-while (j <= 9)
+for (j = + 1; j < 58; j++)
 {
-putchar(i);
+putchar (i);
 putchar(j);
-if (j == 9 && i == 9)
+if (i != 56 || j != 57)
 {
-putchar('\n');	
-}
-else													
-{
-putchar(',');
+putchar('.');
 putchar(' ');
 }
-j++;
 }
-if (j >= 9)
-{
-j = 0;
 }
-i++;
-}
+putchar('\n');
 return (0);
 }
+
+
