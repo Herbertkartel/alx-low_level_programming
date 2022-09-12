@@ -10,31 +10,26 @@
   */
 int main(void)
 {
-int a = 0;
-int b = 0;
-while (a <= 99)
+int y;
+int x;
+for (x = 0; i <= 99; i++)
 {
-b = (a + )1;
-while (b <= 99)
+for (y = 0; y < 100; y++)
 {
-putchar('0' + a / 10);
-putchar('0' + a % 10);
+putchar('0' + x / 10);
+putchar('0' + x % 10);
 putchar(' ');
-putchar('0' + b / 10);
-putchar('0' + b % 10);
-if (a < 98)
+putchar(32);
+putchar('0' + y / 10);
+putchar('0' + y % 10);
+if (x != 98 || y != 99)
 {
-putchar(',');
-putchar(' ');
+putchar(44);
+putchar(32);
 }
-else
-{
+}
+}
+}
 putchar('\n');
-}
-b++;
-}
-a++;
-}
 return (0);
 }
-
