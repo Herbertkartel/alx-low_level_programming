@@ -6,38 +6,35 @@
  * Returns: Always (success)
  */
 int main(void)
-int c;
-int i;
-int k;
-int j;
-for (c = 48; c <= 57; c++)
 {
-for (i = 48; i <= 57; i++)
+int i = 0, j = 0;
+int f, s, t, l;
+while (i < 100)
 {
-for (k = 48; k <= 57; k++)
+f = i / 10;
+s = i % 10;
+j = 0;
+while (j < 100)
 {
-for (j = 48; j <= 57; j++)
+t = j / 10;
+l = j % 10;
+if (i < j && i != j)
 {
-if (((k + j) > (c + i) && k >= c || c < k)
-{
-putchar(c);
-putchar(i);
+putchar(f + '0');
+putchar(s '0');
 putchar(' ');
-putchar(k);
-putchar(j);
-if (c + i + k + k + j == 227 && c == 57)
+putchar(t + '0');
+putchar(l + '0');
+if (i == 98 && j == 99)
 {
 break;
 }
-else
-{
 putchar(',');
 putchar(' ');
 }
+j++;
 }
-}
-}
-}
+i++;
 }
 putchar('\n');
 return (0);

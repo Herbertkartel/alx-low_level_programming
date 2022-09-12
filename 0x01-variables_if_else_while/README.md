@@ -1,1 +1,1 @@
-Print 3 combinations of numbers
+Printing numbers
