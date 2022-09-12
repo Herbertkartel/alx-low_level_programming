@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints 3 combinations of numbers
+ * main - Prints 2 digit combos.
  *
  * Returns: Always (success)
  */
