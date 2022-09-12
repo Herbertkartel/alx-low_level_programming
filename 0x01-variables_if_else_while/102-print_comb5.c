@@ -18,7 +18,7 @@ k = 50;
 while  ((i < 56) && (j < 57) && (k < 58))
 {
 putchar(i);
-putchar(j);
+putchar(k);
 putchar(k);
 if ((i == 55) && (j == 56) && (k == 57))
 {
@@ -33,7 +33,7 @@ putchar(44);
 putchar(32);
 if (k < 57)
 {
-k++
+k++;
 }
 else if ((j < 56) && (k == 57))
 {
