@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints 2 digit combos.
+ * main - Prints all possible combinations of two two-digit numbers,
+ *  ranging from 0-99, separated by a comma followed by a space.
  *
- * Returns: Always (success)
+ * Returns: Always 0
  */
 int main(void)
 {
