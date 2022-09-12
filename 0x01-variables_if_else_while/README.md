@@ -1,1 +1,1 @@
-print numbers from 00 to 99
+Prints all possible combinations of three different digits
