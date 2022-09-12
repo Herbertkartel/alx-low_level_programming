@@ -10,28 +10,31 @@
   */
 int main(void)
 {
-int a, b, c, d;
-int i, j;
-for (i = 0; i <= 99 i++)
+int a = 0;
+int b = 0;
+while (a <= 99)
 {
-for (j = 1; j <= 99 j++)
+b = (a + )1;
+while (b <= 99)
 {
-a = (i / 10) + '0';
-b = (i % 10) + '0';
-c = (j / 10) + '0';
-d = (j % 10) + '0';
-putchar(a);
-putchar(b);
+putchar('0' + a / 10);
+putchar('0' + a % 10);
 putchar(' ');
-putchar(c);
-putchar(d);
-if (i != 98)
+putchar('0' + b / 10);
+putchar('0' + b % 10);
+if (a < 98)
 {
-putchar(',);
+putchar(',');
 putchar(' ');
 }
-}
-}
+else
+{
 putchar('\n');
+}
+b++;
+}
+a++;
+}
 return (0);
 }
+
