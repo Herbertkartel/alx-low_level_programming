@@ -1,1 +1,1 @@
-Software eating up the world
+Sofware eating up the world
