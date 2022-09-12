@@ -1,33 +1,26 @@
 #include <stdio.h>
-
 /**
- * main - Prints all possible combinations of three different digits,
- *        in ascending order, separated by a comma followed by a space.
+ * main - represent Entry Point to the program
  *
- * Return: Always 0.
+ * Return: 0 to stop the program
  */
-int main(void)
+int main (void)
 {
-int c;
 int i;
-int k;
-for (c = '0'; c <= '9'; c++)
+int j;
+for (i = 0; i <= 99; i++)
 {
-for (i = '0'; i <= '9'; i++)
+for (j = i + 1; j <= 99; j++)
 {
-for (k = '0'; k <= '9'; k++)
-{
-if (c < i && i < k)
-{
-putchar(c);
-putchar(i);
-putchar(k);
-if (c != '7')
+putchar(i / 10 + '0');
+putchar(i % 10 + '0');
+putchar(' ');
+putchar(j / 10 + '0');
+putchar(j % 10 + '0');
+if (!(i == 98 && j == 99))
 {
 putchar(',');
 putchar(' ');
-}
-}
 }
 }
 }

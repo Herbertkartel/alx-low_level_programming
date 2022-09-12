@@ -1,1 +1,1 @@
-This program prints all possible combinations of two two-digit numbers
+Software is eating up the world
