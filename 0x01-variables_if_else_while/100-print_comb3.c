@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-int i = ;
-int j = ;
+int i;
+int j;
 for (i = 48; i < 57; i++)
 {
 for (j = + 1; j < 58; j++)
