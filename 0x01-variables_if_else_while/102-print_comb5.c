@@ -1,42 +1,25 @@
+ */
+
 #include <stdio.h>
 
-/**
- * main - Prints all possible combinations of two two-digit numbers.
- *
- * Description - Software is eating up the world
- *
- * Returns: Always 0
- */
+ /**
+  * main - Prints all possible combinations of two two-digit numbers,
+  *        ranging from 0-99, separated by a comma followed by a space.
+  *
+  * Return: Always 0.
+  */
 int main(void)
 {
-int i = 0, j = 0;
-int f, s, t, l;
-while (i < 100)
+int num1, num2;
+for (num1 = 0; num1 <= 98; num1++)
 {
-f = i / 10;
-s = i % 10;
-j = 0;
-while (j < 100)
-{
-t = j / 10;
-l = j % 10;
-if (i < j && i != j)
-{
-putchar(f + '0');
-putchar(s + '0');
-putchar(' ');
-putchar(t + '0');
-putchar(l + '0');
-if (i == 98 && j == 99)
-{
-break;
-}
-putchar(',');
-putchar(' ');
-}
-j++;
-}
-i++;
+for (num2 = num1 + 1; num2 <= 99; num2++)							{
+putchar((num1 / 10) + '0');
+putchar((num1 % 10) + '0');
+putchar(' ');											putchar((num2 / 10) + '0');
+putchar((num2 % 10) + '0');
+if (num1 == 98 && num2 == 99)									continue;
+putchar(',');											putchar(' ');											}
 }
 putchar('\n');
 return (0);
