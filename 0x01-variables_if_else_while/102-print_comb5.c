@@ -21,7 +21,7 @@ l = j % 10;
 if (i < j && i != j)
 {
 putchar(f + '0');
-putchar(s '0');
+putchar(s + '0');
 putchar(' ');
 putchar(t + '0');
 putchar(l + '0');
