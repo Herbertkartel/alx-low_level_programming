@@ -8,21 +8,25 @@
  */
 int main(void)
 {
+int c;
 int i;
-int j;
 int k;
-for (i = 48; i < 56; i++)
+for (c = '0'; c <= '9'; c++)
 {
-for (j = i + 1; j < 57; j++)
+for (i = '0'; i <= '9'; i++)
 {
-for (k = j + 1; k < 58; k++)
+for (k = '0'; k <= '9'; k++)
 {
+if (c < i && i < k)
+{
+putchar(c);
 putchar(i);
-putchar(j);
 putchar(k);
-if (i != 55 || j != 56 || k != 57)
+if (c != '7')
+{
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
