@@ -3,15 +3,14 @@
 /**
  * main - prints _putchar, followed by new lines
  *
+ * Return: Always 0
  */
 int main(void)
 {
-char her[] = "_putchar";
-int c;
-for (c = 0; c < 8; c++)
-{
-_putchar(her[c]);
-}
+_putchar('m');
+_putchar('a');
+_putchar('i');
+_putchar('n');
 _putchar('\n');
 return (0);
 }
