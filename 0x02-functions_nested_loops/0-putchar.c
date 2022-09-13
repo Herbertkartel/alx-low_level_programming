@@ -1,13 +1,17 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - prints Alx
+ * main - prints _putchar, followed by new lines
  *
  */
 int main(void)
 {
-_putchar(A);
-_putchar(l);
-_putchar(x);
+char her[] = "_putchar";
+int c;
+for (c = 0; c < 8; c++)
+{
+_putchar(her[c]);
+}
+_putchar('\n');
 return (0);
 }
