@@ -1,1 +1,1 @@
-Make alphabets
+Print alphabet
