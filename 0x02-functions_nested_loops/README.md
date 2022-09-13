@@ -1,1 +1,1 @@
-A program that prints putchar
+Script that prints putchar
