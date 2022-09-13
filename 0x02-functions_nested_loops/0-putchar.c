@@ -4,7 +4,7 @@
  * main - prints Alx
  *
  */
-int main (void)
+int main(void)
 {
 _putchar(A);
 _putchar(l);
