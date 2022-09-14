@@ -1,1 +1,1 @@
-my readme
+prints count of multiples
