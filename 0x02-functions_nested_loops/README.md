@@ -1,1 +1,1 @@
-prints the  times table with
+prints count of multiples
