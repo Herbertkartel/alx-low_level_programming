@@ -1,1 +1,1 @@
-Readme fibonacci
+prints count of multiples
