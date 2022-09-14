@@ -1,1 +1,1 @@
-Print every minute of the day of Jack Bauer
+Print the 9 times table

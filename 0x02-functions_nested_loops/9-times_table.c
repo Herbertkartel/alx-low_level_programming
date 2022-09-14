@@ -4,33 +4,23 @@
  * times_table - Print the 9 times table, starting with 0
  * Return: 0
  */
-void jack_bauer(void)
+void times_table(void)
 {
-int x = 0;
-int a = 0, b = 0, c = 0, d = 0;
-while (x < 1440)
+int num, mult, prod;
+for (num = 0; num <= 9; num++)
 {
-_putchar(a + '0');
-_putchar(b + '0');
-_putchar(':');
-_putchar(c + '0');
-_putchar(d + '0');
+_putchar('0');
+for (mult = 1; mult <= 9; mult++)
+{
+_putchar(',');
+_putchar(' ');
+prod = num * mult;
+if (prod <= 9)
+_putchar(' ');
+else
+_putchar((prod / 10) + '0');
+_putchar((prod % 10) + '0');
+}
 _putchar('\n');
-d++;
-if (d > 9)
-{
-d = 0;
-c++;
-}
-if (c > 5)
-{
-c = 0;
-b++;
-}
-if (b > 9)
-b = 0;
-a++;
-}
-x++;
 }
 }
