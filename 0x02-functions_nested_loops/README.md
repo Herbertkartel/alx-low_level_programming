@@ -1,1 +1,1 @@
-Prints the last digit of a number
+Print every minute of the day of Jack Bauer
