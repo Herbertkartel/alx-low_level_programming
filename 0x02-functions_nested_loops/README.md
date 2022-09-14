@@ -1,1 +1,1 @@
-Make alphabet x10 times
+function to print abc 10 times
