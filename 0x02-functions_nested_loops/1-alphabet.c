@@ -2,8 +2,8 @@
 
 /**
  * Main - print_alphabet - Make the alphabet
- * Description: 1-alphabet.c
- * Return: Always 0.
+ * Description: Make the alphabet
+ * Return: void
  */
 void print_alphabet(void)
 {
