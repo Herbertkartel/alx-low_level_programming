@@ -1,1 +1,1 @@
-prints count of multiples
+Lists all the natural numbers below 1024
