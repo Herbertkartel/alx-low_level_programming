@@ -1,1 +1,1 @@
-Prints the first 98 Fibonacci numbers
+Readme fibonacci
