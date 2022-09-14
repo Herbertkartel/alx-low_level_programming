@@ -2,22 +2,17 @@
 
 /**
  * print_alphabet_x10 - Make alphabet x10 times
- *
  * Return: 0
  */
 void print_alphabet_x10(void)
 {
-int i = 0;
-char c;
-while (i <= 10)
+char c, i;
+for (i = 0; i <= 9; i++)
 {
-c = 'a';
-while (c <= 'z')
+for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
-c++;
 }
 _putchar('\n');
-i++;
 }
 }

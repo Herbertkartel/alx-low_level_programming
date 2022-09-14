@@ -1,1 +1,1 @@
-a function that prints 10 times the alphabet
+Make alphabet x10 times
