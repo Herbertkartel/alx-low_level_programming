@@ -3,6 +3,8 @@
 /**
  * print _isalpha - Checks for alphabetic character
  * @c: The character to be checked
+ *
+ * Return: Always 0
  */
 int _isalpha(int c)
 {
