@@ -1,1 +1,1 @@
-Print the 9 times table
+prints the  times table with
