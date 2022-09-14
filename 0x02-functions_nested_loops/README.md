@@ -1,1 +1,1 @@
-Lists all the natural numbers below 1024
+Write a program that finds and prints the first 98 Fibonacci numbers
