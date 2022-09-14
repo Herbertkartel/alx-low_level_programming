@@ -1,1 +1,1 @@
-Add two integers
+Print all natural numbers from n to 98
