@@ -1,1 +1,1 @@
-Print all natural numbers from n to 98
+a function that prints 10 times the alphabet
