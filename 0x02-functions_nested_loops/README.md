@@ -1,1 +1,1 @@
-Fibonacci 3
+Prints the first 98 Fibonacci numbers
