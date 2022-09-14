@@ -1,1 +1,1 @@
-Prints the sign of a number
+Computes the absolute value of an integer
