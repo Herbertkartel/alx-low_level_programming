@@ -1,1 +1,1 @@
-fibonacci suit numbers
+fibonacci

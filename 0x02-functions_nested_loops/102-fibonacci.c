@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints out 50
@@ -14,7 +15,7 @@ for (inc = 0; inc < 50; inc++)
 n3 = n1 + n2;
 printf("%lu", n3);
 n1 = n2;
-n3 = n4;
+n2 = n3;
 if (inc == 49)
 printf("\n");
 else
