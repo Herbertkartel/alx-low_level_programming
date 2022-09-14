@@ -5,7 +5,7 @@
  * of 3 or 5 below 1024
  * Return: return 0
  */
-int main(voi)
+int main(void)
 {
 int n, sum = 0;
 for (n = 0; n < 1024; n++)
@@ -15,4 +15,4 @@ sum += n;
 }
 printf("%d\n", sum);
 return (0);
-}
+}i
