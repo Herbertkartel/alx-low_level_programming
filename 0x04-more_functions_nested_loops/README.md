@@ -1,1 +1,1 @@
-checks for uppercase characters
+checks if a  character is uppercase or not
