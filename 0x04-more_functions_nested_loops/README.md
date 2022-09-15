@@ -1,1 +1,1 @@
-a function that checks for uppercase character
+checks for uppercase characters

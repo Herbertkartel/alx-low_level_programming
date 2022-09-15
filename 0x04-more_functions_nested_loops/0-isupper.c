@@ -3,7 +3,7 @@
 
 /**
  * _isupper - checks for uppercase characters.
- * *@c: character being tested
+ * @c: character being tested
  *  Return: Always 0.
  */
 int _issuper(int c)
