@@ -1,1 +1,1 @@
-Case of Alphabet is tested
+isupper
