@@ -1,1 +1,1 @@
-a function that checks for a digit
+checks if a character is uppercase or not
