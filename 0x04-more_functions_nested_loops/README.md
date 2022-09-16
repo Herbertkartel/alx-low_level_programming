@@ -1,1 +1,1 @@
-define if a character is uppercase
+a function that checks for uppercase character
