@@ -1,1 +1,1 @@
-a function that prints a triangle
+define if a character is uppercase
