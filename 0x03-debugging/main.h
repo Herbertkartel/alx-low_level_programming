@@ -23,3 +23,4 @@ if (n < 0)
 _putchar("is negative" '\n');
 return (0);
 }
+int _isupper(int c);
