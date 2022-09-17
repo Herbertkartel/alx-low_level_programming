@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-*_isupper - whatever you want
-*@c: a parameter of the function
-*@c: charater
-*Return: void
+* _isupper - whatever you want
+* @c: a parameter of the function
+* @c: charater
+* Return: void
 */
 
 int _isupper(int c)
