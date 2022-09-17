@@ -1,10 +1,10 @@
-#include "main.h"
+"main.h"
 
 /**
-* _isupper - whatever you want
+* _isupper - checks if parameter is uppercase character
 * @c: a parameter of the function
 * @c: charater
-* Return: void
+* Return: 1 if c is uppercase, otherwise 0
 */
 
 int _isupper(int c)
