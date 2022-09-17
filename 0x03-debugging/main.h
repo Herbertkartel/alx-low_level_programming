@@ -1,11 +1,25 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include <stdlib.h>
+#include "main.h"
+#include <time.h>
 
-#include <stdio.h>
+/**
+ * main - entry point
+ * more headers go there
+ * betty style doc function goes there
+ * Return: Always 0. success
+ */
 
-void positive_or_negative(int i);
-int largest_number(int a, int b, int c);
-void print_remaining_days(int month, int day, int year);
-int convert_day(int month, int day);
-
-#endif /* MAIN_H */
+int main(void)
+{
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+/* your code goes there */
+if (n == 0)
+_putchar("is zero", '\n');
+if (n > 0)
+_putchar("is positive" '\n');
+if (n < 0)
+_putchar("is negative" '\n');
+return (0);
+}
