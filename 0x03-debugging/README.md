@@ -1,1 +1,1 @@
-Positive or negative
+causes an infinite loop
