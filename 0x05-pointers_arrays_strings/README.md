@@ -1,1 +1,1 @@
-Write a function that prints a string
+prints a string
