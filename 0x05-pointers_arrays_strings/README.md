@@ -1,1 +1,1 @@
-Print every other charaqcter
+print every other charcter
