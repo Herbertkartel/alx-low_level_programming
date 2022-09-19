@@ -1,1 +1,1 @@
-Print 10 times the numbers since 0 upto 14
+Updates the value it points to 98
