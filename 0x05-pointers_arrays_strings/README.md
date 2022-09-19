@@ -1,1 +1,1 @@
-copy and paste string
+Write a function that prints a string
