@@ -3,6 +3,7 @@
 /*
  * reset_t0_98 - Updates the value it points to 98
  * @n: pointer to n
+ *
  * Return: void
  */
 
