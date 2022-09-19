@@ -1,1 +1,1 @@
-return the length of a string
+Print every other charaqcter
