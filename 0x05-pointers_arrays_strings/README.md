@@ -1,1 +1,1 @@
-Returns the length of a string
+Prints a string
