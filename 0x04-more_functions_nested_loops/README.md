@@ -1,1 +1,1 @@
-a function that prints a triangle
+Write a function that prints the numbers
