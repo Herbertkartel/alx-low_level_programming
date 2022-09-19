@@ -1,1 +1,1 @@
-Main h file
+Prints a string
