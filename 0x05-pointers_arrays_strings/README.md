@@ -1,1 +1,1 @@
-Prints a string
+reverses a tring
