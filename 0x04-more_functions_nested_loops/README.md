@@ -1,1 +1,1 @@
-Multiplies two integers
+a function that prints a triangle
