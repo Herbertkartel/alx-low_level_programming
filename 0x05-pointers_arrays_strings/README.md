@@ -1,1 +1,1 @@
-Readme
+Returns the length of a string
