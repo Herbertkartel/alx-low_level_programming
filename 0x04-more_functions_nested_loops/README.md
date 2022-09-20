@@ -1,1 +1,1 @@
-Print fizz buzz
+Fizz buzz
