@@ -1,1 +1,1 @@
-Write a function that draws a straight line in the terminal
+Draws a straight line according to parameter
