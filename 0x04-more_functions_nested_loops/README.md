@@ -1,1 +1,1 @@
-Draws a straight line according to parameter
+Draw a straight line
