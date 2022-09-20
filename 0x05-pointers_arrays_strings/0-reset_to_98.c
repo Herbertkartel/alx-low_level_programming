@@ -3,7 +3,8 @@
 /*
  * reset_t0_98 - Updates the value it points to 98
  *
- * Description: @n - pointer to n
+ * Description:  a function that takes a pointer to an int as parameter and updates the
+ * @n:pointer to n
  *
  * Return: void
  */
