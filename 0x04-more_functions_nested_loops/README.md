@@ -1,1 +1,1 @@
-Draws a diagonal line
+Print square
