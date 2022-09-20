@@ -1,1 +1,1 @@
-A function that prints an integer
+check if the character is true
