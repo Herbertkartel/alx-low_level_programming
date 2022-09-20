@@ -1,1 +1,1 @@
-Create a program that generates random valid passwords for the program
+Updates the value it points to 98
