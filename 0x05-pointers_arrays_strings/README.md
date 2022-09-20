@@ -1,1 +1,1 @@
-A function that converts a string to an integer
+Create a program that generates random valid passwords for the program
