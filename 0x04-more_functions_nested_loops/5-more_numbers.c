@@ -2,23 +2,25 @@
 
 /**
  * more_numbers - Print 10 times the numbers since 0 up to 14
- * Followed by a new line
+ *
+ * Return: 10 times of the numbers since 0 up to 14
  */
 
 void more_numbers(void)
 {
-int i, j;
+int x, y;
 
-for (i = 0; x < 10; i++)
+for (x = 0; x < 10; x++)
 {
-for (j = 0; y <= 15; j++)
+for (y = 0; y <= 15; y++)
 {
-if (j >= 10)
+if (y >= 10)
 {
-_putchar(j / 10 + '0');
+_putchar(y / 10 + '0');
 }
-_putchar(j % 10 + '0');
+_putchar(y % 10 + '0');
 }
+
 _putchar('\n');
 }
 }

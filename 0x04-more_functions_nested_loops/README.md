@@ -1,1 +1,1 @@
-Print the numbers since 0 up to 9
+Write a function that prints 10 times the numbers
