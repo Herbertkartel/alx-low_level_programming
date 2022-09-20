@@ -1,1 +1,1 @@
-Print square
+Print fizz buzz
