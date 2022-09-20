@@ -1,1 +1,1 @@
-Updates the value it points to 98
+Generate random passwords
