@@ -1,1 +1,1 @@
-Generate random passwords
+Updates the value it points to
