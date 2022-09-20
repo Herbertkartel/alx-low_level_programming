@@ -1,1 +1,1 @@
-check if the character is true
+Print the numbers since 0 up to 9
