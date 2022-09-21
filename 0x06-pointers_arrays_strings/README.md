@@ -1,1 +1,1 @@
-array strings
+concatenate strings
