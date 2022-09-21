@@ -1,1 +1,1 @@
-Add a line of code
+Append strings
