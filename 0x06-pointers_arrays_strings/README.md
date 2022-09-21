@@ -1,1 +1,1 @@
-Append strings
+Appends strings
