@@ -1,1 +1,1 @@
-Append strings
+array strings
