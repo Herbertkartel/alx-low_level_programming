@@ -1,1 +1,1 @@
-concatenate strings
+Compare two strings
