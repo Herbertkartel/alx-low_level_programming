@@ -1,1 +1,1 @@
-Print an integer
+Magic
