@@ -1,1 +1,1 @@
-function that reverses a string
+Capitalize characters
