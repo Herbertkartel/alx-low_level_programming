@@ -1,1 +1,1 @@
-encode characters
+print integers
