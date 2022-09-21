@@ -19,7 +19,7 @@ while (i < n)
 {
 j = a[i];
 b = a[n];
-a[n] = i;
+a[n] = j;
 a[i] = b;
 i++;
 n--;
