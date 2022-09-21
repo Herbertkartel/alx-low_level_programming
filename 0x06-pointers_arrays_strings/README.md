@@ -1,1 +1,1 @@
-Magic
+Add two numbers
