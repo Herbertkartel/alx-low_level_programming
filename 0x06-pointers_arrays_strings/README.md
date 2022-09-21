@@ -1,1 +1,1 @@
-Capitalize characters
+Print an integer
