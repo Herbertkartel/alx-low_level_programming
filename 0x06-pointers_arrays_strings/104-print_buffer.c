@@ -21,6 +21,7 @@ for (index = 0; index < 10; index++)
 {
 if ((index + byte) >= size)
 printf("  ");
+
 else
 printf("%02x", *(b + index + byte));
 

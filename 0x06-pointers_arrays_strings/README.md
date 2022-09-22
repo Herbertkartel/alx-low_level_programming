@@ -1,1 +1,1 @@
-Add numbers stored un two strings
+Print buffer
