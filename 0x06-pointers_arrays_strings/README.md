@@ -1,1 +1,1 @@
-Print integer
+Add numbers stored un two strings
