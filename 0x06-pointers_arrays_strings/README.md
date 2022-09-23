@@ -1,1 +1,1 @@
-magic
+Function that prints a buffer
