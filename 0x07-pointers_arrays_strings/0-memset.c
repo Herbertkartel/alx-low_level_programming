@@ -5,20 +5,19 @@
  *
  *  @s: pointer to memory area to fill
  *  @n: the number of bytes to fill
- *  @b: constant byte
+ *  @b: bytes of the memory area to be filled
  *
- *  Return: a pointer to the memory area @s
+ *  Return: the memory area filled
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int n;
-ar *start = s;
+unsigned int a;
 
-while (i < n)
+for (a = 0; a < n; a++)
 {
-s++ = b;
-i++;
+s[a] = b;
 }
-return (start);
+
+return (s);
 }
