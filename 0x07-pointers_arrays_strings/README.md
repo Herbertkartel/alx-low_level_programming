@@ -1,1 +1,1 @@
-Locates a substring
+Print the chess board
