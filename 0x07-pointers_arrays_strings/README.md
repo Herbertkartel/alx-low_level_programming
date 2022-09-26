@@ -1,1 +1,1 @@
-fills n bytes of memory
+copy memory area
