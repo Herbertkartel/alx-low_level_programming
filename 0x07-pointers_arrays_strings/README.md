@@ -1,1 +1,1 @@
-Search a string for a set of bytes
+Search for a string of bytes
