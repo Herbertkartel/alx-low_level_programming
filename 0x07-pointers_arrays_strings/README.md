@@ -1,1 +1,1 @@
-sets the value of a pointer to a char
+Crack me password
