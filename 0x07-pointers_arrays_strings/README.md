@@ -1,1 +1,1 @@
-Print the chess board
+A function that searches a string for any of a set of bytes

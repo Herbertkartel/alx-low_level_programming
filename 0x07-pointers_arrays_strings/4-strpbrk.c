@@ -16,7 +16,7 @@ while (s[a])
 {
 b = 0;
 
-while(accept[b])
+while (accept[b])
 {
 if (s[a] == accept[b])
 {
