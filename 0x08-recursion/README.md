@@ -1,1 +1,1 @@
-prints length of a string
+prints factorial of number n
