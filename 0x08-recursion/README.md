@@ -1,1 +1,1 @@
-checks for the square root of c
+checks if a number is prime
