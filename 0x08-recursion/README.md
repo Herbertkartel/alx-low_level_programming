@@ -1,1 +1,1 @@
-Main h prototypes
+Prints a string followed by a new line
