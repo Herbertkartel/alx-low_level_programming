@@ -1,1 +1,1 @@
-prints factorial of number n
+Prints factorial of number
