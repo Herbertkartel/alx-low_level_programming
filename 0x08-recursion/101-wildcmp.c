@@ -48,4 +48,4 @@ return (recursive_check(s1 + 1, s2 + 1, wildC));
 else if (*s1 != *s2 && wildC == 0) /* non matching and no wildC */
 return (0);
 return (-1); /* something unexpected occured, return -1 for error */
-}}
+}
