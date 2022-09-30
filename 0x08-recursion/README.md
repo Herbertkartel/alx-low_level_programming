@@ -1,1 +1,1 @@
-checks if a number is prime
+_puts_recursion - prints a string followed by a new line
