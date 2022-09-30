@@ -1,1 +1,1 @@
-Pallindrome
+a function that compares two strings and returns 1
