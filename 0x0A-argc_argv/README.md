@@ -1,1 +1,1 @@
-Prints name
+Multiplies two numbers
