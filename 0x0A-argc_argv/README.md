@@ -1,1 +1,1 @@
-Multiplies two numbers
+Adds postive numbers
