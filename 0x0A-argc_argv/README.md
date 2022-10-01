@@ -1,1 +1,1 @@
- program that adds positive numbers
+Prints the name of the program
