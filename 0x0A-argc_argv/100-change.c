@@ -1,20 +1,17 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - adds positive numbers
- * @argv: array of pointers to strings
- * @argc: argument count
- *
- * Return: 0 or 1
+ * main - prints the minimum number of coins to make change
+ * for an amount of money
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *Return: returns 1 if there is an error; else returns 0
  */
 
 int main(int argc, char *argv[])
 {
-int array[] = {25, 10, 5, 2, 1};
-int i, cents;
-int count = 0;
+int cents, coins = 0;
 
 if (argc != 2)
 {
@@ -22,22 +19,31 @@ printf("Error\n");
 return (1);
 }
 cents = atoi(argv[1]);
-if (cents < 0)
+while (cents > 0)
 {
-printf("0\n");
-}
-for (i = 0; i < 5; i++)
+coins++;
+if ((cents - 25) >= 0)
 {
-if (cents >= array[i])
+cents -= 25;
+continue;
+}
+if ((cents - 10) >= 0)
 {
-count += (cents / array[i]);
-cents = cents % array[i];
+cents -= 10;
+continue;
 }
-if (cents == 0)
+if ((cents - 5) >= 0)
 {
-printf("%d\n", count);
-break;
+cents -= 5;
+continue;
 }
+if ((cents - 2) >= 0)
+{
+cents -= 2;
+continue;
 }
+cents--;
+}
+printf("%d\n", coins);
 return (0);
 }
