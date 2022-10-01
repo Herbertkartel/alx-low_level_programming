@@ -2,19 +2,14 @@
 #include "main.h"
 
 /**
- * main - Entry Point
- * @argc: arguments
- * @argv: array pointing to arguments
+ * main -  print name
+ * @argc: int
+ * @argv: char
  * Return: 0
 */
 
 int main(int argc, __attribute__((unused)) char *argv[])
 {
-int i;
-
-for (i = 0; i < argc; i++)
-{
-}
-printf("%d\n", i - 1);
+printf("%d\n", argc - 1);
 return (0);
 }
