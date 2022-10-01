@@ -1,1 +1,1 @@
-Prints the name of the program
+Multiplies two numbers

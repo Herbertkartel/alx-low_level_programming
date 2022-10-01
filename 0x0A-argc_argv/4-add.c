@@ -1,36 +1,20 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - A program that adds positive numbers
- * @argc: int.
- * @argc: int.
- * Return: Always 0.
+ * main - multiplies two numbers
+ * @argv: array of pointers to strings
+ * @argc: argument count
+ * Return: 0 or 1
  */
 
 int main(int argc, char *argv[])
 {
-int i;
-int j;
-int k;
-
-if (argc < 2)
-{
-printf("0\n");
-return (0);
-}
-for (i = 1; i < argc; i++)
-{
-for (j = 0; argv[i][j] != '\0'; j++)
-{
-if (argv[i][j] < '0' || argv[i][j] > '9')
+if (arg != 3) 
 {
 printf("Error\n");
 return (1);
 }
+return (0);
 }
-sum = sum + atoi(argv[i]);
-}
-printf("%d\n", sum);
-}
-
