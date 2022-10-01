@@ -1,1 +1,1 @@
-Adds postive numbers
+Prints name
