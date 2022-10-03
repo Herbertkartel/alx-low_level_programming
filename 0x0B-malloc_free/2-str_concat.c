@@ -12,9 +12,9 @@
 char *str_concat(char *s1, char *s2)
 {
 char *s;
-int a,b,c,d;
+int a, b, c, d;
 
-if (s1 == 1)
+if (s1 == 0)
 s1 = "";
 if (s2 == 0)
 s2 = "";
