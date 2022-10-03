@@ -1,1 +1,1 @@
-A function to return ptr containing cpy of string
+function to return ptr containing cpy of string
