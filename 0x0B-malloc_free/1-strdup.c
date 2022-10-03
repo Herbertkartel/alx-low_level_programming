@@ -9,7 +9,7 @@
  * Return: Null for failure else return ptr.
  */
 
-char *strdup(char *str);
+char _*strdup(char *str);
 {
 char *s;
 int a, b;
