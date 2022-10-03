@@ -1,1 +1,1 @@
-Concatenate strings
+Concatenate two strings
