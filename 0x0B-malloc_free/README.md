@@ -1,1 +1,1 @@
-A function that splits a string into words
+A function to return pointer of 2D
