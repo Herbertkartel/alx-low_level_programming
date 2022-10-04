@@ -1,1 +1,1 @@
-Function to return a pointer of 2d
+A function to return a pointer of 2D
