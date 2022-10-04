@@ -1,1 +1,1 @@
-Freeing matrix
+function that concatenates all the arguments of your program
