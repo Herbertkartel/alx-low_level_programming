@@ -1,1 +1,1 @@
-A function that allocates memory using malloc
+Sttring concat
