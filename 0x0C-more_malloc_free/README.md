@@ -1,1 +1,1 @@
-reallocates old to new
+Write a function that creates an array of integers
