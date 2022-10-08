@@ -1,1 +1,1 @@
-Prints array in 2 grids
+loop size of len to insert min++ into new arr
