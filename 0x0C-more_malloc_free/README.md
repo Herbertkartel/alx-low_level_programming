@@ -1,1 +1,1 @@
-a function that concatenates two strings
+Multiply two numbers
