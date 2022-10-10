@@ -1,1 +1,1 @@
-prints the dog struct
+creates a new struct of type dog
