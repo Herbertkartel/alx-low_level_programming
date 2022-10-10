@@ -1,1 +1,1 @@
-A  function that initialize a variable of type struct dog
+prints the dog struct
