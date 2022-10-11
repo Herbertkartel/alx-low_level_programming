@@ -1,1 +1,1 @@
-A function like ABS
+A function like micro SUM
