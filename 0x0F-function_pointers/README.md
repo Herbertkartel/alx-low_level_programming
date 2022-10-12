@@ -1,1 +1,1 @@
-The operator
+Function prototypes
