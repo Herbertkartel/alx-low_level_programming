@@ -1,1 +1,1 @@
-Function prototypes
+Print name
