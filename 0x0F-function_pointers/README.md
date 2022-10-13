@@ -1,1 +1,1 @@
-Prin a name
+Print your name
