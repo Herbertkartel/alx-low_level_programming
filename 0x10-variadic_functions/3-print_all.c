@@ -3,95 +3,97 @@
 #include "variadic_functions.h"
 
 /**
- * print_c - print a char
- * @c: char to print
+ * print_f - print fs a char from var args
+ * @list: va_list to print from
+ *
+ * Return: void
+ */
+void printf_char(va_list list)
+{
+printf("%c", (char) va_arg(list, int));
+}
+
+/**
+ * printf_int - printfs an int from var args
+ *
+ * @list: va_list to print from
  *
  * Return: void
  */
 
-void print_c(va_list c)
+void printf_int(va_list list)
 {
-printf("%c", va_arg(c, int));
+printf("%d", va_arg(list, int));
 }
 
 /**
- * prints_s - prints a string
- * @s: string to print
+ * printf_float - printfs a float from 
  *
- * Return: void
- */
-
-void print_s(va_list s)
-{
-char *str = va_arg(s, char *);
-
-if (str == NULL)
-str = "(nil)";
-printf("%s", str);
-}
-
-/**
- * print_i - Prints an int
- * @i: int to print
+ * @list: va_list to print from
  *
  * Return: Void
  */
 
-void print_i(va_list i)
+void printf_float(va_list list)
 {
-printf("%d", va_arg(i, int));
+printf("%f", (float) va_arg(list, double));
 }
 
 /**
- * print_f - float to print
- * @f: float to print
+ * printf_string - printfs a string from var args
+ *
+ * @list: va_list to print from
  *
  * Return: void
  */
 
-void print_f(va_list f)
+void printf_string(va_list list)
 {
-printf("%f", va_arg(f, double));
+char *str = va_arg(list, char*);
+
+while (str != NULL)
+{
+printf("%s", str);
+return;
+}
+printf("(nil)");
 }
 
 /**
- * print_all - prints anything
- * @format: list of argument types passed to the function
+ * print_all - prints various types given a format string for the arguments
+ *
+ * @format: string containing type information for args
  *
  * Return: void
  */
 
 void print_all(const char * const format, ...)
 {
-unsigned int i, j;
-print_t p[] = {
-{"c", print_c},
-{"s", print_s},
-{"i", print_i},
-{"f", print_f},
-{NULL, NULL}
-};
-va_list valist;
-char *separator = "";
+const char *ptr;
+va_list list
+funckey key[4] = { {printf_char, 'c'}, {printf_int, 'i'},
+{printf_float, 'f'}, {printf_string, 's'} };
+int keyind = 0, notfirst = 0;
 
-va_start(valist, format);
-i = 0;
-while (format && format[i])
+ptr = format;
+va_start(list, format);
+while (format != NULL && *ptr)
 {
-j = 0;
-while (p[j].t != NULL)
+if (key[keyind].spec == *ptr)
 {
-if (*(p[j].t) == format[i])
-{
-printf("%s", separator);
-p[j].f(valist);
-separator = ", ";
-break;
+if (notfirst)
+printf(", ");
+notfirst = 1;
+key[keyind].f(list);
+ptr++;
+keyind = -1;
 }
-j++;
+keyind++;
+ptr += keyind / 4;
+keyind %= 4;
 }
-i++;
-}
-va_end(valist);
+
 printf("\n");
+
+va_end(list);
 }
