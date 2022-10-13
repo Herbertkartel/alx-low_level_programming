@@ -1,1 +1,1 @@
-A function to perform an operation
+print opcodes of this function
