@@ -1,1 +1,1 @@
-Print the opcodes of this program
+A function that executes a function given as a parameter on each element of an array
