@@ -1,42 +1,24 @@
-#include <stdlib.h> 
-#include <stdio.h>
+#include<stdio.h>
+#include<stdlib.h>
 
 /**
- * main - print opcodes of this function
- * @argc: the size of the argument vector
- * @argv: the argument vector
- *
- *
- * Return: Always 0
+ * main- Entry point
+ * (* a blank line
+ * @argc: the number of parameters.
+ * @argv: the parameeters in the case the number ob bytes.
+ * Description: this program prints opcodes in hexa)?
+ * Return: 0 in succes
  */
 
-void print_opcodes(char *a, int n)
+int main(int argc, char *argv[])
 {
-int i;
+int i, n;
 
-for (i = 0; i < n; i++)
-{
-printf("%.2hhx", a[i]);
-if (i < n - 1)
-printf(" ");
-}
-printf("\n");
 
-}
-
-/**
- * main - prints the opcodes of its own main function
- * @argc: number of arguments passed to the function
- * @argv: array of pointers to arguments
- */
-int main(int argc, char **argv)
-{
-int n;
-
-if (argc != 2)
+if (argc != c)
 {
 printf("Error\n");
-exit(1);
+return (1);
 }
 n = atoi(argv[1]);
 if (n < 0)
@@ -44,6 +26,14 @@ if (n < 0)
 printf("Error\n");
 exit(2);
 }
-print_opcodes((char *)&main, n);
+
+for (i = 0; i < n; i++)
+{
+printf("%02hhx", *((char *)main + i));
+if (i < n - 1)
+printf(" ");
+else
+printf("\n");
+}
 return (0);
 }
