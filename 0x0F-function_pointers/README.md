@@ -1,1 +1,1 @@
-Struct op
+A function that prints anything
