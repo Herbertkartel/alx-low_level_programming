@@ -1,1 +1,1 @@
-Add node at the end of the list
+A function that frees a list
