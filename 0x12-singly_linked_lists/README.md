@@ -1,1 +1,1 @@
-function with one argument
+Prints all elements of lists
