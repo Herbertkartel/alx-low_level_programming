@@ -1,1 +1,1 @@
-Add a new node at the begining
+Add node at the end of the list
