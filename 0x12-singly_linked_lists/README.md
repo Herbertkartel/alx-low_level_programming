@@ -1,1 +1,1 @@
-A function that returns the number of elements in a linked
+Add a new node at the begining
