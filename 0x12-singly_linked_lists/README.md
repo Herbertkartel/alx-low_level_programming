@@ -1,1 +1,1 @@
-Task prototypes
+A function that returns the number of elements in a linked
