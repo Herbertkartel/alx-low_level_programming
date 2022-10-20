@@ -1,1 +1,1 @@
-Print something before main
+Assembly that prints hello
