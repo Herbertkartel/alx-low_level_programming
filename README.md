@@ -1,1 +1,1 @@
-Prints strings on a new line
+List prototypes
