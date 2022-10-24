@@ -1,1 +1,1 @@
-A function that frees a list
+Frees a list
