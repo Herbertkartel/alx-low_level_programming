@@ -1,1 +1,1 @@
-Prints all elements of listsint
+Prints all elements of a list
