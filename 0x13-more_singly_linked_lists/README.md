@@ -1,1 +1,1 @@
-List prototypes
+Prints all elements of of listin
