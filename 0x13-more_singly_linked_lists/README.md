@@ -1,1 +1,1 @@
-Adds a node to the beginning of a listint_t list
+Print a function that adds a new node at the end of the listsint
