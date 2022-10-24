@@ -1,1 +1,1 @@
-Prints all the elements of a listint
+Prints all numbers of elements
