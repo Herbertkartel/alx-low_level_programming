@@ -1,1 +1,1 @@
-Prints all elements of lists
+ A function that deletes the head node of a linked list
