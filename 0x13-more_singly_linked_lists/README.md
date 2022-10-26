@@ -1,1 +1,1 @@
-A function that inserts a new node at a given position
+Deletes the node at index
