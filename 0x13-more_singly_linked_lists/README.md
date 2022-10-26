@@ -1,1 +1,1 @@
-Deletes the node at index
+Reverses list
