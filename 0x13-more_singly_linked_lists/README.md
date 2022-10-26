@@ -1,1 +1,1 @@
-A function that returns the nth index
+A function that returns an nth node
