@@ -1,1 +1,1 @@
-A function that prints decimal as binary
+Returns the endian of the processor
