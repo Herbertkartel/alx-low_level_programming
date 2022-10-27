@@ -1,1 +1,1 @@
-A function to convert binary string to decimal
+Function to prinat a binary decimal
