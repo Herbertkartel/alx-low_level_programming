@@ -4,6 +4,7 @@
  * print_binary - prints decimal as binary
  * @n: long integer
  */
+
 void print_binary(unsigned long int n)
 {
 signed long int size;

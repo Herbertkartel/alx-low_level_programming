@@ -1,1 +1,1 @@
-A function gets the number of bits flipped form n to m
+A function that prints decimal as binary
