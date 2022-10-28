@@ -1,1 +1,1 @@
-A function that prints the binary representation of a number
+Finds the password of this program
