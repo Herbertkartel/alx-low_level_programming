@@ -1,1 +1,1 @@
-Returns the endian of the processor
+Crack password
