@@ -1,1 +1,1 @@
-Crack password
+A function that prints the binary representation of a number
