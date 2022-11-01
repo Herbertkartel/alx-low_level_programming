@@ -1,1 +1,1 @@
-A function that appends a file at the end of the text
+A program that copies the content of a file to another file
