@@ -1,1 +1,1 @@
-A program that copies the content of a file to another file
+A  program that displays the information contained in the ELF header at the start of an ELF file
