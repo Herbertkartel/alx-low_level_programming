@@ -2,6 +2,7 @@
 
 /**
  * listnint_len - Prints all numbers of elements in a linked_list_t
+ *
  * @h: input head of singly linked list to print
  *
  * Return: Number of nodes
