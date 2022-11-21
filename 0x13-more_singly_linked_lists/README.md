@@ -1,1 +1,1 @@
-A function that prints all the elements of a list
+Prints all elements of the linked list
