@@ -1,1 +1,1 @@
-Sum of all data
+Delete node
