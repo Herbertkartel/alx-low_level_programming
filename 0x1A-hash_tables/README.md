@@ -1,1 +1,1 @@
-Hash tables h
+Hash tables
