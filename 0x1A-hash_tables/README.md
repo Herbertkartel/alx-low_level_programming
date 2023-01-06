@@ -1,1 +1,1 @@
-A function that creates hash tables
+Hash tables h
